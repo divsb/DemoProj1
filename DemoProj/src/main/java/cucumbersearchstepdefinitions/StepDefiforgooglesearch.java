@@ -40,7 +40,7 @@ public void User_enters_username_and_password()	throws InterruptedException
 	    {		
 	       driver.findElement(By.name("btnReset")).click();	
 	       Thread.sleep(1000);
-	       driver.close();
+	       driver.quit();
 	    }		
 	}
 	
